@@ -86,3 +86,15 @@ max30003_write_register(0x15, 0x800000);
 ```
 
 **Important:** When changing GAIN, you must also update the `max30003_convert_to_mv()` function with the corresponding divisor.
+
+---
+
+# Hardware Connections
+| MAX30003 Sensor | EFR32MG24 Pin |
+|--------|--------------|
+| VCC | Pin 20 |
+| GND | Pin 1 |
+| SCLK | Pin 8 (PC01) |
+| MOSI | Pin 4 (PC03) | 
+| MISO | Pin 6 (PC02)| 
+| CS (SSEL)   | Pin 10 (PA07)|
