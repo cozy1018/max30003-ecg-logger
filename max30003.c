@@ -135,12 +135,12 @@ bool max30003_init(void) {
     max30003_write_register(0x08, 0x000000);
     sl_sleeptimer_delay_millisecond(500);
 
-    // ✅ Step 1: Configure CNFG_ECG first (RATE = 10 for 125 sps)
+    // Step 1: Configure CNFG_ECG first (RATE = 10 for 125 sps)
     printf("Configuring RATE=10 (125 sps with FMSTR=01)...\n");
     max30003_write_register(0x15, 0x800000);  // RATE=10, GAIN=00(default)
     sl_sleeptimer_delay_millisecond(100);
 
-    // ✅ Step 2: Configure CNFG_GEN (FMSTR=01, EN_ECG=1)
+    // Step 2: Configure CNFG_GEN (FMSTR=01, EN_ECG=1)
     printf("Configuring FMSTR=01 (32000 Hz)...\n");
     max30003_write_register(0x10, 0x180000);  // FMSTR=01, EN_ECG=1
     sl_sleeptimer_delay_millisecond(200);
