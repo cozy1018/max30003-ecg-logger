@@ -30,3 +30,13 @@ raw, mv
 11510, 0.326
 …
 ```
+## Viewing Output in Terminal
+
+After reconnecting your EFR32MG24 board
+```
+ls -l /dev/tty.*
+```
+Find the correct device name (e.g. /dev/tty.usbmodem14101), then run:
+```
+screen /dev/tty.usbmodem14101 115200
+```
