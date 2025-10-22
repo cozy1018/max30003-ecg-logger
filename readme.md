@@ -40,22 +40,49 @@ Find the correct device name (e.g. /dev/tty.usbmodem14101), then run:
 ```
 screen /dev/tty.usbmodem14101 115200
 ```
-## MAX30003 Register Configuration for 125 Hz Sampling Rate
+# MAX30003 Register Configuration for Sampling Rate and Gain
 
-To configure the **MAX30003** to sample ECG at **125 Hz**, the following two register write commands are used:
+To configure the MAX30003 for ECG sampling and gain settings, use the following two register write commands:
 
-### 1. CNFG_GEN (Register 0x10)
-
-```
+## 1. CNFG_GEN (Register 0x10)
+```c
 max30003_write_register(0x10, 0x180000);  // CNFG_GEN: FMSTR=01, EN_ECG=1
 ```
-Sets FMSTR = 01 → 32.768 kHz master clock.
-Enables ECG channel via EN_ECG = 1.
--Note: This line is required because 125 Hz sampling is only valid when the master clock is set to 32.768 kHz.
 
-### 2. CNFG_ECG (Register 0x15)
+Sets FMSTR = 01 → 32.768kHz master clock. Enables ECG channel via EN_ECG = 1.  
+**Note:** This line is required because 125Hz sampling is only valid when the master clock is set to 32.768kHz.
+
+---
+
+## 2. CNFG_ECG (Register 0x15)
+```c
+max30003_write_register(0x15, 0x800000);  // CNFG_ECG: RATE=10 (125 sps), GAIN=00 (20 V/V)
 ```
-max30003_write_register(0x15, 0x800000);  // CNFG_ECG: RATE=10 (125 sps)
-```
-Sets RATE = 2 → 125 Hz sampling rate.
+
+Sets:
+- **RATE = 2** → 125Hz sampling rate
+- **GAIN = 0** → 20 V/V gain (default)
+
 This setting is only effective when FMSTR = 01 is already set in CNFG_GEN.
+
+---
+
+## 3. GAIN Configuration (bit[17:16] in CNFG_ECG)
+
+The GAIN can be adjusted by modifying bit[17:16] in register 0x15:
+
+| GAIN | bit[17:16] | Register Value | Conversion Formula |
+|------|-----------|----------------|-------------------|
+| 20 V/V | 00 | 0x800000 | ÷(131072×20) |
+| 40 V/V | 01 | 0x810000 | ÷(131072×40) |
+| 80 V/V | 10 | 0x820000 | ÷(131072×80) |
+
+### Examples:
+
+**125 Hz + 20 V/V (default):**
+```c
+max30003_write_register(0x15, 0x800000);
+// Update conversion: / (131072.0f * 20.0f)
+```
+
+**Important:** When changing GAIN, you must also update the `max30003_convert_to_mv()` function with the corresponding divisor.
