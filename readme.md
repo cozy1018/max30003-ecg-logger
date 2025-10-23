@@ -92,9 +92,19 @@ max30003_write_register(0x15, 0x800000);
 # Hardware Connections
 | MAX30003 Sensor | EFR32MG24 Pin |
 |--------|--------------|
-| VCC | Pin 20 |
+| VCC (3.3V) | Pin 20 |
 | GND | Pin 1 |
 | SCLK | Pin 8 (PC01) |
 | MOSI | Pin 4 (PC03) | 
 | MISO | Pin 6 (PC02)| 
 | CS (SSEL)   | Pin 10 (PA07)|
+
+<br/>
+
+<div style="display: flex; gap: 20px; align-items: flex-start;">
+
+  <img src="images/max30003.png" alt="MAX30003" width="300">
+  <img src="images/EFR32MG24.png" alt="EFR32MG24" width="400">
+
+</div>
+
