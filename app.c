@@ -55,7 +55,8 @@ void app_init(void)
     g_init_success = max30003_init();
 
     if (g_init_success) {
-        printf("MAX30003 initialized successfully!\n\n");
+        printf("MAX30003 initialized successfully!\n");
+        printf("Hardware: ~150 Hz, Software downsampling to 125 Hz\n\n");
     } else {
         printf("MAX30003 initialization failed!\n");
     }
@@ -63,15 +64,25 @@ void app_init(void)
 
 void app_process_action(void)
 {
+    static uint8_t downsample_counter = 0;
+
     app_iostream_eusart_process_action();
 
     if (g_init_success) {
         if (max30003_data_ready()) {
             int32_t raw = max30003_read_ecg_sample();
-            float mv = max30003_convert_to_mv(raw);
-            int32_t mv_int = (int32_t)(mv * 10000.0f);
 
-            printf("%ld,%ld\n", (long)raw, (long)mv_int);
+            downsample_counter++;
+
+            if (downsample_counter <= 7) {
+                float mv = max30003_convert_to_mv(raw);
+                int32_t mv_int = (int32_t)(mv * 10000.0f);
+                printf("%ld,%ld\n", (long)raw, (long)mv_int);
+            }
+
+            if (downsample_counter >= 8) {
+                downsample_counter = 0;
+            }
         }
     } else {
         sl_sleeptimer_delay_millisecond(1000);
