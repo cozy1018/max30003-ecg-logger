@@ -1,0 +1,8 @@
+GNU ARM v12.2.1 - Default/
+*.o
+*.bin
+*.axf
+*.hex
+*.map
+*.out
+*.s37
