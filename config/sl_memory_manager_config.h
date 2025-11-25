@@ -1,9 +1,9 @@
 /***************************************************************************//**
  * @file
- * @brief DEVICE_INIT_EMU Config
+ * @brief Memory Heap Allocator configuration file.
  *******************************************************************************
  * # License
- * <b>Copyright 2019 Silicon Laboratories Inc. www.silabs.com</b>
+ * <b>Copyright 2024 Silicon Laboratories Inc. www.silabs.com</b>
  *******************************************************************************
  *
  * SPDX-License-Identifier: Zlib
@@ -28,26 +28,27 @@
  *
  ******************************************************************************/
 
-#ifndef SL_DEVICE_INIT_EMU_CONFIG_H
-#define SL_DEVICE_INIT_EMU_CONFIG_H
-
-#include "em_emu.h"
-
 // <<< Use Configuration Wizard in Context Menu >>>
 
-// <q> Allow debugger to remain connected in EM2
-// <i> Force PD0B to stay on on EM2 entry. This allows the debugger to remain connected in EM2 and EM3.
-// <i> Enabling debug connectivity results in an increased power consumption in EM2/EM3.
-// <i> Default: 1
-#define SL_DEVICE_INIT_EMU_EM2_DEBUG_ENABLE   1
+#ifndef SL_MEMORY_MANAGER_CONFIG_H
+#define SL_MEMORY_MANAGER_CONFIG_H
 
-// <o SL_DEVICE_INIT_EMU_EM4_PIN_RETENTION_MODE> EM4 pin retention mode
-// <emuPinRetentionDisable=> No Retention: Pads enter reset state when entering EM4.
-// <emuPinRetentionEm4Exit=> Retention through EM4: Pads enter reset state when exiting EM4.
-// <emuPinRetentionLatch=> Retention through EM4 and wakeup.
-// <i> Default: emuPinRetentionDisable
-#define SL_DEVICE_INIT_EMU_EM4_PIN_RETENTION_MODE  emuPinRetentionDisable
+// <h> Memory Manager Configuration
+
+// <o SL_MEMORY_MANAGER_BLOCK_ALLOCATION_MIN_SIZE> Minimum block allocation size
+// <32-128:8>
+// <i> Minimum block allocation size to avoid creating a block too small while splitting up an allocated block.
+// <i> Size expressed in bytes and can only be a multiple of 8 bytes for the proper data alignment management done by the dynamic allocator malloc() function.
+// <i> Default: 32
+#define SL_MEMORY_MANAGER_BLOCK_ALLOCATION_MIN_SIZE   (32)
+
+// <q SL_MEMORY_MANAGER_STATISTICS_API_ENABLE> Enables the statistics API.
+// <i> Setting this configuration to 0 will make all the statistics API return 0.
+// <i> Default: 1
+#define SL_MEMORY_MANAGER_STATISTICS_API_ENABLE  1
+
+// </h>
 
 // <<< end of configuration section >>>
 
-#endif // SL_DEVICE_INIT_EMU_CONFIG_H
+#endif /* SL_MEMORY_MANAGER_CONFIG_H */

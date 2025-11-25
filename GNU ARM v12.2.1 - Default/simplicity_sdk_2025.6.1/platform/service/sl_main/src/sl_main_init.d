@@ -2,10 +2,10 @@ simplicity_sdk_2025.6.1/platform/service/sl_main/src/sl_main_init.o: \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sl_main/src/sl_main_init.c \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/CMSIS/Core/Include/cmsis_compiler.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/CMSIS/Core/Include/cmsis_gcc.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_event_handler.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_event_handler.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_assert.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/sl_main/inc/sl_main_init.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_chip.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/em_device.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24b310f1536im48.h \
@@ -71,16 +71,21 @@ simplicity_sdk_2025.6.1/platform/service/sl_main/src/sl_main_init.o: \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_system_generic.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_bus.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_init/inc/sl_device_init_dcdc.h \
- /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_init/inc/sl_device_init_emu.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sl_main/src/sli_main_init_memory.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/sleeptimer/inc/sl_sleeptimer.h \
- /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/clock_manager/inc/sl_clock_manager_init.h
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/memory_manager/inc/sl_memory_manager.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/memory_manager/inc/sl_memory_manager_region.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/clock_manager/inc/sl_clock_manager_init.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/power_manager/inc/sl_power_manager.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_power_manager_config.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_slist.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_enum.h
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/CMSIS/Core/Include/cmsis_compiler.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/CMSIS/Core/Include/cmsis_gcc.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_event_handler.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_event_handler.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_assert.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/sl_main/inc/sl_main_init.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_chip.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/em_device.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24b310f1536im48.h:
@@ -146,7 +151,12 @@ simplicity_sdk_2025.6.1/platform/service/sl_main/src/sl_main_init.o: \
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_system_generic.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_bus.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_init/inc/sl_device_init_dcdc.h:
-/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_init/inc/sl_device_init_emu.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sl_main/src/sli_main_init_memory.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/sleeptimer/inc/sl_sleeptimer.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/memory_manager/inc/sl_memory_manager.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/memory_manager/inc/sl_memory_manager_region.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/clock_manager/inc/sl_clock_manager_init.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/power_manager/inc/sl_power_manager.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_power_manager_config.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_slist.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_enum.h:

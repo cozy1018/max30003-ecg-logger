@@ -83,6 +83,18 @@
 
  
 
+
+// EM Events
+#define SLEEP_EM_EVENT_MASK      (SL_POWER_MANAGER_EVENT_TRANSITION_ENTERING_EM0 \
+                                  | SL_POWER_MANAGER_EVENT_TRANSITION_LEAVING_EM0)
+static void events_handler(sl_power_manager_em_t from,
+                           sl_power_manager_em_t to);
+static sl_power_manager_em_transition_event_info_t events_info =
+{
+  .event_mask = SLEEP_EM_EVENT_MASK,
+  .on_event = events_handler,
+};
+static sl_power_manager_em_transition_event_handle_t events_handle;
  
 
 
@@ -208,6 +220,9 @@ sl_status_t sl_iostream_eusart_init_vcom(void)
 
 void sl_iostream_eusart_init_instances(void)
 {
+  
+  // Enable power manager notifications
+  sl_power_manager_subscribe_em_transition_event(&events_handle, &events_info);
    
   // Instantiate eusart instance(s) 
   
@@ -226,4 +241,32 @@ void SL_IOSTREAM_EUSART_RX_IRQ_HANDLER(SL_IOSTREAM_EUSART_VCOM_PERIPHERAL_NO)(vo
   sl_iostream_eusart_irq_handler(&sl_iostream_vcom);
 }
 
+
+
+ 
+sl_power_manager_on_isr_exit_t sl_iostream_eusart_vcom_sleep_on_isr_exit(void)
+{
+  return sl_iostream_uart_sleep_on_isr_exit(&sl_iostream_vcom);
+}
+
+ 
+static void events_handler(sl_power_manager_em_t from,
+                           sl_power_manager_em_t to)
+{
+  (void) from;
+  if (to == SL_POWER_MANAGER_EM0) {
+    
+    if (sl_iostream_uart_vcom_handle->stream.context != NULL) {
+      sl_iostream_uart_wakeup(sl_iostream_uart_vcom_handle);
+    }
+    
+  } else if (to < SL_POWER_MANAGER_EM2){
+    // Only prepare for sleep to EM2 or less
+    
+    if (sl_iostream_uart_vcom_handle->stream.context != NULL) {
+      sl_iostream_uart_prepare_for_sleep(sl_iostream_uart_vcom_handle);
+    }
+    
+  }
+}
 

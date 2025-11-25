@@ -3,7 +3,7 @@ simplicity_sdk_2025.6.1/hardware/board/src/sl_board_control_gpio.o: \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//hardware/board/inc/sl_board_control.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_status.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_enum.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/config/sl_board_control_config.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_board_control_config.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/em_device.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24b310f1536im48.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/CMSIS/Core/Include/core_cm33.h \
@@ -62,14 +62,14 @@ simplicity_sdk_2025.6.1/hardware/board/src/sl_board_control_gpio.o: \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs_signals.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dma_descriptor.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldmaxbar_defines.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_assert.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/driver/gpio/inc/sl_gpio.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_manager/inc/sl_device_gpio.h
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//hardware/board/inc/sl_board_control.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_status.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_enum.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/config/sl_board_control_config.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_board_control_config.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/em_device.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24b310f1536im48.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/CMSIS/Core/Include/core_cm33.h:
@@ -128,7 +128,7 @@ simplicity_sdk_2025.6.1/hardware/board/src/sl_board_control_gpio.o: \
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs_signals.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dma_descriptor.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldmaxbar_defines.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_assert.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/driver/gpio/inc/sl_gpio.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_manager/inc/sl_device_gpio.h:

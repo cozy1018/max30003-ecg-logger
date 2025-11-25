@@ -59,7 +59,7 @@ simplicity_sdk_2025.6.1/platform/service/device_manager/devices/sl_device_periph
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs_signals.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dma_descriptor.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldmaxbar_defines.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_manager/inc/sl_device_peripheral.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_manager/inc/sl_device_peripheral_types.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_manager/inc/sl_device_clock.h \
@@ -124,7 +124,7 @@ simplicity_sdk_2025.6.1/platform/service/device_manager/devices/sl_device_periph
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs_signals.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dma_descriptor.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldmaxbar_defines.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_manager/inc/sl_device_peripheral.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_manager/inc/sl_device_peripheral_types.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_manager/inc/sl_device_clock.h:

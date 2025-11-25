@@ -1,4 +1,16 @@
-app.o: ../app.c ../app_iostream_eusart.h ../max30003.h \
+app.o: ../app.c \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//protocol/bluetooth/inc/sl_bt_api.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_status.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//protocol/bluetooth/inc/sl_bgapi.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_bgapi_config.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//protocol/bluetooth/inc/sl_bt_api_compatibility.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/gatt_db.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//protocol/bluetooth/inc/sli_bt_gattdb_def.h \
+ ../app.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//app/common/util/app_assert/app_assert.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/app_assert_config.h \
+ ../app_iostream_eusart.h ../max30003.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_cmu.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/em_device.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24b310f1536im48.h \
@@ -11,7 +23,6 @@ app.o: ../app.c ../app_iostream_eusart.h ../max30003.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_core.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_code_classification.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sli_code_classification.h \
- /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_status.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/CMSIS/Core/Include/mpu_armv8.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/system_efr32mg24.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_code_classification.h \
@@ -59,7 +70,6 @@ app.o: ../app.c ../app_iostream_eusart.h ../max30003.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs_signals.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dma_descriptor.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldmaxbar_defines.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_assert.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_bus.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_cmu_compat.h \
@@ -73,6 +83,17 @@ app.o: ../app.c ../app_iostream_eusart.h ../max30003.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_eusart.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_eusart_compat.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/sleeptimer/inc/sl_sleeptimer.h
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//protocol/bluetooth/inc/sl_bt_api.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_status.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//protocol/bluetooth/inc/sl_bgapi.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_bgapi_config.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//protocol/bluetooth/inc/sl_bt_api_compatibility.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/gatt_db.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//protocol/bluetooth/inc/sli_bt_gattdb_def.h:
+../app.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//app/common/util/app_assert/app_assert.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/app_assert_config.h:
 ../app_iostream_eusart.h:
 ../max30003.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_cmu.h:
@@ -87,7 +108,6 @@ app.o: ../app.c ../app_iostream_eusart.h ../max30003.h \
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_core.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_code_classification.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sli_code_classification.h:
-/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_status.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/CMSIS/Core/Include/mpu_armv8.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/system_efr32mg24.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_code_classification.h:
@@ -135,7 +155,6 @@ app.o: ../app.c ../app_iostream_eusart.h ../max30003.h \
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs_signals.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dma_descriptor.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldmaxbar_defines.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_assert.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_bus.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_cmu_compat.h:

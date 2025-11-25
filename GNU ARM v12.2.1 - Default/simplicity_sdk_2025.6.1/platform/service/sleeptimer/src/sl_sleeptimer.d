@@ -59,14 +59,20 @@ simplicity_sdk_2025.6.1/platform/service/sleeptimer/src/sl_sleeptimer.o: \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs_signals.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dma_descriptor.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldmaxbar_defines.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/sleeptimer/inc/sl_sleeptimer.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_common.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_assert.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sleeptimer/src/sli_sleeptimer_hal.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/sleeptimer/inc/sli_sleeptimer.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/config/sl_sleeptimer_config.h \
- /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_atomic.h
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_sleeptimer_config.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_atomic.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/power_manager/inc/sl_power_manager.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_power_manager_config.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_slist.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_enum.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/power_manager/inc/sli_power_manager.h \
+ /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/power_manager/inc/sl_power_manager.h
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/em_device.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24b310f1536im48.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/CMSIS/Core/Include/core_cm33.h:
@@ -126,11 +132,17 @@ simplicity_sdk_2025.6.1/platform/service/sleeptimer/src/sl_sleeptimer.o: \
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs_signals.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dma_descriptor.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldmaxbar_defines.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/sleeptimer/inc/sl_sleeptimer.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_common.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_assert.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk/platform/service/sleeptimer/src/sli_sleeptimer_hal.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/sleeptimer/inc/sli_sleeptimer.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/config/sl_sleeptimer_config.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_sleeptimer_config.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_atomic.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/power_manager/inc/sl_power_manager.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_power_manager_config.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_slist.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_enum.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/power_manager/inc/sli_power_manager.h:
+/Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/power_manager/inc/sl_power_manager.h:

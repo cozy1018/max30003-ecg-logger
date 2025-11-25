@@ -3,12 +3,12 @@ simplicity_sdk_2025.6.1/hardware/board/src/sl_board_init.o: \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//hardware/board/inc/sl_board_control.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_status.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_enum.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/config/sl_board_control_config.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_board_control_config.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/clock_manager/inc/sl_clock_manager.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_manager/inc/sl_device_clock.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_code_classification.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sli_code_classification.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_eusart/sl_mx25_flash_shutdown.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/em_device.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24b310f1536im48.h \
@@ -66,16 +66,16 @@ simplicity_sdk_2025.6.1/hardware/board/src/sl_board_init.o: \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs_signals.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dma_descriptor.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldmaxbar_defines.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/config/sl_mx25_flash_shutdown_eusart_config.h
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_mx25_flash_shutdown_eusart_config.h
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//hardware/board/inc/sl_board_control.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_status.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_enum.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/config/sl_board_control_config.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_board_control_config.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/clock_manager/inc/sl_clock_manager.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_manager/inc/sl_device_clock.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_code_classification.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sli_code_classification.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_eusart/sl_mx25_flash_shutdown.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/em_device.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24b310f1536im48.h:
@@ -133,4 +133,4 @@ simplicity_sdk_2025.6.1/hardware/board/src/sl_board_init.o: \
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs_signals.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dma_descriptor.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldmaxbar_defines.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/config/sl_mx25_flash_shutdown_eusart_config.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_mx25_flash_shutdown_eusart_config.h:

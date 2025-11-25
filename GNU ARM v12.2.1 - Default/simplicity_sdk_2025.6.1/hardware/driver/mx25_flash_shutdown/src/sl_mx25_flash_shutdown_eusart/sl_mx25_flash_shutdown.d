@@ -66,8 +66,8 @@ simplicity_sdk_2025.6.1/hardware/driver/mx25_flash_shutdown/src/sl_mx25_flash_sh
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs_signals.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dma_descriptor.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldmaxbar_defines.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/config/sl_mx25_flash_shutdown_eusart_config.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_mx25_flash_shutdown_eusart_config.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_eusart.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_eusart_compat.h
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/clock_manager/inc/sl_clock_manager.h:
@@ -136,7 +136,7 @@ simplicity_sdk_2025.6.1/hardware/driver/mx25_flash_shutdown/src/sl_mx25_flash_sh
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_prs_signals.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_dma_descriptor.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/efr32mg24_ldmaxbar_defines.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/config/sl_mx25_flash_shutdown_eusart_config.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_mx25_flash_shutdown_eusart_config.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_eusart.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/em_eusart_compat.h:

@@ -1,8 +1,8 @@
 simplicity_sdk_2025.6.1/platform/service/clock_manager/src/sl_clock_manager_init_hal_s2.o: \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk/platform/service/clock_manager/src/sl_clock_manager_init_hal_s2.c \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/config/sl_clock_manager_oscillator_config.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h \
- /Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/config/sl_clock_manager_tree_config.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_clock_manager_oscillator_config.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h \
+ /Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_clock_manager_tree_config.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk/platform/service/clock_manager/src/sli_clock_manager_init_hal.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_status.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/em_device.h \
@@ -76,9 +76,9 @@ simplicity_sdk_2025.6.1/platform/service/clock_manager/src/sl_clock_manager_init
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/service/device_manager/inc/sl_device_gpio.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/emlib/inc/sli_em_cmu.h \
  /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/driver/gpio/inc/sl_gpio.h
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/config/sl_clock_manager_oscillator_config.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/autogen/sl_component_catalog.h:
-/Users/hsinwen/SimplicityStudio/v5_workspace/iostream_eusart_baremetal_new/config/sl_clock_manager_tree_config.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_clock_manager_oscillator_config.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/autogen/sl_component_catalog.h:
+/Users/hsinwen/SimplicityStudio/v5_workspace/ecg_sensor_bt/config/sl_clock_manager_tree_config.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk/platform/service/clock_manager/src/sli_clock_manager_init_hal.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/common/inc/sl_status.h:
 /Users/hsinwen/SimplicityStudio/SDKs/simplicity_sdk//platform/Device/SiliconLabs/EFR32MG24/Include/em_device.h:
