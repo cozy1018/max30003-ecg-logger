@@ -4,6 +4,15 @@ This project demonstrates how to read real-time ECG signals from the MAX30003 bi
 
 The received ECG data is streamed to the host computer via USB and logged as both raw and converted millivolt (mV) values.
 
+## Branch Information
+
+This repository contains two branches:
+
+- **main** — Standard MAX30003 ECG logger using USB/VCOM.
+
+- **ble-version** — Extended version with Bluetooth Low Energy (BLE) support.  
+  Includes BLE scanning and BLE dashboard tools.
+  
 ## Project Overview
 
 - **Platform:** Silicon Labs MCU (tested with EFR32MG24B310F1536IM48)
